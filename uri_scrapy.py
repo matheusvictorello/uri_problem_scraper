@@ -6,8 +6,8 @@ from decouple import config
 from bs4 import BeautifulSoup
 
 BASE_URL = 'https://www.urionlinejudge.com.br'
-LOGIN = BASE_URL + '/judge/pt/login'
-ALLPROBLEMS = BASE_URL + '/judge/pt/problems/all'
+LOGIN = BASE_URL + '/judge/en/login'
+ALLPROBLEMS = BASE_URL + '/judge/en/problems/all'
 
 form_data = {
 	'email': config('EMAIL', ''),
